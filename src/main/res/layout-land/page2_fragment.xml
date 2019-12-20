@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGrey">
+
+    <TextView
+        android:id="@+id/txtConvertFrom3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/stringTo"
+        app:layout_constraintStart_toEndOf="@+id/txtConvertFrom"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtConvertFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/LblConverting_from"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblConvertFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/txtConvertFrom"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblConvertTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/txtConvertFrom3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="0dp"
+        android:layout_height="295dp"
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/fieldInput"
+                android:layout_width="405dp"
+                android:layout_height="49dp"
+                android:layout_span="3"
+                android:clickable="false"
+                android:ems="10"
+                android:enabled="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@string/lblFrom"
+                android:inputType="numberDecimal" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/fieldResult"
+                android:layout_width="405dp"
+                android:layout_height="49dp"
+                android:layout_span="3"
+                android:clickable="false"
+                android:ems="10"
+                android:enabled="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@string/LblEquals"
+                android:inputType="numberDecimal" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/calcButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_7" />
+
+            <Button
+                android:id="@+id/calcButton8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_8" />
+
+            <Button
+                android:id="@+id/calcButton9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_9" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/calcButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_4" />
+
+            <Button
+                android:id="@+id/calcButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_5" />
+
+            <Button
+                android:id="@+id/calcButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/calcButton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_1" />
+
+            <Button
+                android:id="@+id/calcButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_2" />
+
+            <Button
+                android:id="@+id/calcButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/calcButtonC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="@string/c"
+                android:textColor="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/calcButton0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_0" />
+
+            <Button
+                android:id="@+id/calcButtonEnter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorAccent"
+                android:text="@string/enterSymbol"
+                android:textColor="@color/colorPrimary" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

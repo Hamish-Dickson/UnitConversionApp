@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Categories">
+        <item>Distance</item>
+        <item>Weight</item>
+        <item>Volumes</item>
+        <item>Currency</item>
+    </string-array>
+    <string-array name="Distances">
+        <item>Kilometres</item>
+        <item>Miles</item>
+        <item>Metres</item>
+        <item>Yards</item>
+    </string-array>
+    <string-array name="Weights">
+        <item>Pounds</item>
+        <item>Kilograms</item>
+        <item>Grams</item>
+        <item>Stone</item>
+    </string-array>
+    <string-array name="Volumes">
+        <item>Litres</item>
+        <item>Millilitres</item>
+        <item>Pints</item>
+        <item>Gallons</item>
+    </string-array>
+    <string-array name="Currencies">
+        <item>GBP (£)</item>
+        <item>Euros (€)</item>
+        <item>USD ($)</item>
+        <item>CNY (¥)</item>
+    </string-array>
+</resources>

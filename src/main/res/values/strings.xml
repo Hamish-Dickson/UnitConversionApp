@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Unit Converter</string>
+    <string name="tab_page1">Select Units</string>
+    <string name="tab_page2">Convert</string>
+    <string name="categoryLabel">Category</string>
+    <string name="convert_fromLabel">Convert from</string>
+    <string name="toLabel">To</string>
+    <string name="stringTo">To:</string>
+    <string name="LblConverting_from">Converting from:</string>
+    <string name="lblFrom">input</string>
+    <string name="LblEquals">equals</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="c">C</string>
+    <string name="_0">0</string>
+    <string name="enterSymbol">↫</string>
+    <string name="btnNextText">Set Units</string>
+    <string name="errTooBig">Value too large!</string>
+    <string name="lblNoValue">No value entered!</string>
+</resources>
